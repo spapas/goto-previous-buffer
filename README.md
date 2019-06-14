@@ -1,35 +1,23 @@
 # goto-previous-buffer README
 
-This is the README for your extension "goto-previous-buffer". After writing up a brief description, we recommend including the following sections.
+This is a really simple plugin that offers a single command for moving to the previous buffer (window/file etc) you were viewing.
+This should is similar to how the <c-^> or :buffer# command works in VIM. This is something that most VIM users use all the time
+(and probably have mapped to a better key like shift+tab). The workflow is similar to this:
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+I am editing a file `A` to add something. Then I press ctrl+p to jump to another file `B` to use what I just added. Then (of course) I
+forget what I did on file `A` so I quickly switch back to A to take a peek at what I did there and immediately switch back
+to `B` to once again do the change. The after a while I will need take a peek *again* to `A`, etc. Using this you should be able to do
+that very quickly.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
 
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None that I know of.
 
 ## Release Notes
 
@@ -37,29 +25,4 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release.
