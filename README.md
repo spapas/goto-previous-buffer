@@ -1,5 +1,7 @@
 # goto-previous-buffer README
 
+Marketplace link: https://marketplace.visualstudio.com/items?itemName=serafeim.goto-previous-buffer
+
 This is a really simple plugin that offers a single command for moving to the previous buffer (window/file etc) you were viewing.
 This should is similar to how the <c-^> or :buffer# command works in VIM. This is something that most VIM users use all the time
 (and probably have mapped to a better key like shift+tab). The workflow is similar to this:
@@ -16,7 +18,6 @@ that very quickly.
 You will need to add a keyboard shortcut to execute the `goto-previous-buffer` command. I recommend assigning it to `shift+tab` (I know
 this moves the indentation left but backspace should also sufficec for that and since you'll want to use that command all the time I
 recommend assigning it to an easy combination).
-
 
 ## Known Issues
 
