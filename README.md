@@ -28,13 +28,11 @@ Users appreciate release notes as you update your extension.
 
 ### 1.0.2
 
-Update license
+Update license.
 
 ### 1.0.1
 
-Change README
-
-Initial release.
+Change README.
 
 ### 1.0.0
 
