@@ -26,6 +26,12 @@ None that I know of.
 
 Users appreciate release notes as you update your extension.
 
+### 1.0.1
+
+Change README
+
+Initial release.
+
 ### 1.0.0
 
 Initial release.
