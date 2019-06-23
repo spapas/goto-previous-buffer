@@ -20,11 +20,9 @@ that these keyboards are already assigned to move the indentation left or cycle 
 
 ## Known Issues
 
-None that I know of.
+None that I know of. This probably won't work when the previous thing you visited was not a real file :)
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 1.0.2
 
