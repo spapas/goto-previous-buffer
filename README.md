@@ -18,6 +18,17 @@ that very quickly.
 You will need to add a keyboard shortcut to execute the `goto-previous-buffer` command. I recommend assigning it to `shift+tab` or `ctrl-shift+tab` (I know
 that these keyboards are already assigned to move the indentation left or cycle to the other open buffers but I use that thing all the time so I recommend assigning it to an easy combination). You can also use `ctrl+6` like vim! To do that press `ctrl+shift+p` and then search for `open keyboard shortcuts`. In the filter in this write `goto-previous-buffer` and then click the cross or pencil to change the shortcut to your desired one.
 
+Example JSON keybindings configuration:
+
+```json
+[
+    {
+        "key": "shift+tab",
+        "command": "goto-previous-buffer.goto-previous-buffer",
+    }
+]
+```
+
 ## Known Issues
 
 None that I know of. This probably won't work when the previous thing you visited was not a real file :)
