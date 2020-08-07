@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.goto-previous-buffer",
+				"command": "goto-previous-buffer.goto-previous-buffer",
 				"title": "Goto previous buffer"
 			}
 		]

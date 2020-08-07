@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
 	console.log('goto-previous-buffer: The extension "goto-previous-buffer" is now active!');
 
-	let disposable = vscode.commands.registerCommand('extension.goto-previous-buffer', () => {
+	let disposable = vscode.commands.registerCommand('goto-previous-buffer.goto-previous-buffer', () => {
 		var pate = context.workspaceState.get("PREVIOUS_ACTIVE_TEXT_EDITOR") as vscode.TextEditor;
 		
 		if(pate) {
