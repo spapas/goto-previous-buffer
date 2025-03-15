@@ -24,6 +24,10 @@ None that I know of. This probably won't work when the previous thing you visite
 
 ## Release Notes
 
+### 1.1.0
+
+Small updates
+
 ### 1.0.2
 
 Update license.

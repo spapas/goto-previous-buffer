@@ -2,8 +2,19 @@
 
 All notable changes to the "goto-previous-buffer" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 1.1.0
 
-- Initial release
+Small updates
+
+## 1.0.2
+
+Update license.
+
+## 1.0.1
+
+Change README.
+
+## 1.0.0
+
+Initial release.
